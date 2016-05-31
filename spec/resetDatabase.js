@@ -2,7 +2,7 @@
 
 var async = require('async');
 
-var resetDatabase function(dbsession, callback){
+var resetDatabase = function(dbsession, callback){
   async.series(
     [
       function(callback){
